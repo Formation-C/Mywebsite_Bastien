@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AbstractCategory.h" />
+		<Unit filename="include/Agenda_Category.h" />
+		<Unit filename="include/Forum_Category.h" />
+		<Unit filename="include/Post.h" />
+		<Unit filename="include/Thread.h" />
+		<Unit filename="include/member.h" />
+		<Unit filename="include/user.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AbstractCategory.cpp" />
+		<Unit filename="src/Agenda_Category.cpp" />
+		<Unit filename="src/Forum_Category.cpp" />
+		<Unit filename="src/Post.cpp" />
+		<Unit filename="src/Thread.cpp" />
+		<Unit filename="src/member.cpp" />
+		<Unit filename="src/user.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

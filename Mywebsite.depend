@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1574870075 source:d:\devt\mywebsite\main.cpp
+	<iostream>
+	"Thread.h"
+
+1574866128 source:d:\devt\mywebsite\src\abstractcategory.cpp
+	"AbstractCategory.h"
+
+1574866128 d:\devt\mywebsite\include\abstractcategory.h
+
+1574866595 source:d:\devt\mywebsite\src\forum_category.cpp
+	"Forum_Category.h"
+
+1574866752 d:\devt\mywebsite\include\forum_category.h
+	<AbstractCategory.h>
+
+1574866752 source:d:\devt\mywebsite\src\agenda_category.cpp
+	"Agenda_Category.h"
+
+1574867032 d:\devt\mywebsite\include\agenda_category.h
+	<AbstractCategory.h>
+
+1574865274 source:d:\devt\mywebsite\src\member.cpp
+	"member.h"
+
+1574866959 d:\devt\mywebsite\include\member.h
+	<user.h>
+
+1574867146 d:\devt\mywebsite\include\user.h
+	<iostream>
+
+1574864557 source:d:\devt\mywebsite\src\user.cpp
+	"user.h"
+
+1574868093 source:d:\devt\mywebsite\src\post.cpp
+	"Post.h"
+
+1574868206 d:\devt\mywebsite\include\post.h
+	<iostream>
+
+1574870047 source:d:\devt\mywebsite\src\thread.cpp
+	"Thread.h"
+
+1574869185 d:\devt\mywebsite\include\thread.h
+	<iostream>
+	<vector>
+
